@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --white-1: #ffffff;
+    --white-2: #eeeeee;
+    --white-3: #ecf1f4;
+    --black: #000000;
+    --dark: #0A0F16;
+    --subtleGreen: #90BCB7;
+    --darkGreen: #082D28;
+    --darkTosca: #569B9B;
+    --tosca-1: #00FFD1;
+    --tosca-2: #27D7D7;
+    --tosca-3: #3FE8FF;
+    --deepTosca-1: #016A6A;
+    --deepTosca-2: #02A6A6;
+    --grey-1: #888888;
+    --grey-2: #666666;
+
+    --black-1: #080e09;
+    --black-2: #232323;
+    --black-3: #101419;
+    --gray-3: #e2e3e5;
+    --gray-4: #c9c9c9;
+    --gray-5: #adb2b8;
+    --gray-6: #9c9c9c;
+    --gray-7: #879fb0;
+    --blue-primary: #0f52ba;
+    --blue-secondary: #478fff;
+    --blue-tertiary: #739ad5;
+    --softBlue: #F9FCFC;
+    --yellow: #ff9900;
+}
+
+section.header-workly {
+    background: radial-gradient(100% 100% at 0% 0%, #114E4E 0%, #052D2D 59.9%, #041111 89.53%, #000909 100%);
+}
+
+.text-40 {
+    font-size: 40px;
+}
+
+.text-28 {
+    font-size: 28px;
+}
+
+.text-24 {
+    font-size: 24px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-white-1 {
+    color: var(--white-1);
+}
+
+.text-white-2 {
+    color: var(--white-2);
+}
+
+.text-darkGreen {
+    color: var(--darkGreen);
+}
+
+.text-subtleGreen {
+    color: var(--subtleGreen);
+}
+
+.bg-white-2 {
+    background-color: var(--white-2);
+}
+
+@media(min-width: 768px) {
+    .leading-px85 {
+        line-height: 85px;
+    }
+
+    .mt-px442 {
+        margin-top: 442px;
+    }
+}
+
+.leading-px40 {
+    line-height: 40px;
+}
+
+.leading-px36 {
+    line-height: 36px;
+}
+
+.z-min100 {
+    z-index: -100;
+}
+
+.z-min10 {
+    z-index: -10;
+}
+
+.max-w-screen {
+    max-width: 1440px;
+}
+
+.max-w-px400 {
+    max-width: 400px;
+}
+
+.w-px580 {
+    width: 580px;
+}
+
+.h-780 {
+    height: 780px;
+}
+
+.content-2-2 .btn-outline {
+    border: 1px solid #979797;
+    color: #979797;
+}
+
+.content-2-2 .btn-outline:hover {
+    border: 1px solid #27c499;
+    color: #27c499;
+}
+
+.content-2-2 .btn-fill {
+    background-color: #27c499;
+    border: 1px solid #27c499;
+}
+
+.content-2-2 .card-header {
+    background-color: #eef6f4;
+    border: 1px solid #27c499;
+}
+
+.content-2-2 .text-medium-black {
+    color: #121212;
+}
+
+.content-2-2 .text-gray {
+    color: #565656;
+}
+
+.bg-black-1 {
+    background-color: var(--black);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.text-grey-1 {
+    color: var(--grey-1);
+}
+
+.text-grey-2 {
+    color: var(--grey-2);
+}
+
+.text-subtleGreen {
+    color: var(--subtleGreen);
+}
+
+.border-blue-primary {
+    border-color: var(--blue-primary);
+}
+
+.text-blackText-1 {
+    color: var(--black-1);
+}
+
+.text-blackText-2 {
+    color: var(--black-2);
+}
+
+.text-gray-6 {
+    color: var(--gray-6);
+}
+
+.sblue {
+    box-shadow: 0px 24px 32px rgba(15, 82, 186, 0.4);
+}
+
+.shadow-cardShadow {
+    box-shadow: 12px 24px 80px rgba(15, 82, 186, 0.06);
+}
+
+.rounded-28 {
+    border-radius: 28px;
+}
+
+.max-h-cardHotel {
+    max-height: 300px;
+}
+
+.max-w-statisticHero {
+    max-width: 85%;
+}
+
+.max-w-screen {
+    max-width: 1440px;
+}
+
+.h-cardHotel {
+    height: 420px;
+}
+
+.h-imageCard {
+    height: 190px;
+}
+
+.w-imageCard {
+    width: 268px;
+}
+
+.z-forBackground {
+    z-index: -99;
+}
+
+.text-7 {
+    font-size: 28px;
+}
+
+.testimonial-bg {
+    width: 502px;
+    height: 784px;
+}
+
+.text-white-3 {
+    color: var(--white-3);
+}
+
+.bg-gradient-footer {
+    background: linear-gradient(293.57deg, #114E4E 0%, #052D2D 23.8%, #041111 42.57%, #000909 63.76%, #000909 69.62%);
+}
